@@ -50,7 +50,7 @@ All below examples assume an image has been attached to the request tweet.
 | Tweet | Output Card |
 | :-----: | :-------: |
 | @futcardcreator [Messi, ED, 241, AR, 99, 99, 99, 99, 99, 99, 99, TOTY, ES] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es.png" width="30%"> |
-| @futcardcreator [Neymar, PE, 73, BR, 99, 99, 99, 99, 99, 99, 99, TOTY, PT] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/neymar_pt.png" width="30%"> |
+| @futcardcreator [Neymar, PE, 73, BR, 99, 99, 99, 99, 99, 99, 99, HERO, PT] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/neymar_pt.png" width="30%"> |
 | @futcardcreator [Ozil, ZOM, 1, DE, 99, 99, 99, 99, 99, 99, 99, EL_MOTM, DE] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/ozil_de.png" width="30%"> |
 | @futcardcreator [Dybala, COC, 245, AR, 99, 99, 99, 99, 99, 99, 99, MOTM, IT] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/dybala_it.png" width="30%"> |
 | @futcardcreator [Mbappe, BU, 73, FR, 99, 99, 99, 99, 99, 99, 99, IF_GOLD, FR] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/mbappe_fr.png" width="30%"> |
