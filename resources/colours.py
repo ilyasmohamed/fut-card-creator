@@ -1,0 +1,26 @@
+COMMON_BRONZE = '#2b2217'
+COMMON_SILVER = '#26292a'
+COMMON_GOLD = '#443a22'
+
+RARE_BRONZE = '#3a2717'
+RARE_SILVER = '#303536'
+RARE_GOLD = '#46390c'
+
+IF_BRONZE = '#fce398'
+IF_SILVER = '#b0bcc8'
+IF_GOLD = '#fce398'
+
+LEGEND = '#625217'
+
+WHISPER = '#e6e6e6'
+
+SPRING_BUD = '#b5fa10'
+
+PORTICA = '#ebcd5b'
+
+TANGERINE = '#f39200'
+
+PHOCA = '#cbb8f9'
+
+BLACK = '#0c0c0c'
+WHITE_SMOKE = '#f5f5f5'

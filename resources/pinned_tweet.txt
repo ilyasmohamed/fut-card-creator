@@ -1,0 +1,1 @@
+I'm @FUTCardCreator, a Twitter bot which can create custom FUT cards. To trigger me, you simply have to tweet me with an image and use the correct request format e.g. [Messi, RW, 241, AR, 94, 88, 96, 91, 32, 88, 61, RARE_GOLD] and i'll respond in a couple of seconds.
