@@ -4,7 +4,9 @@ from resources.fonts import *
 DINPRO_FONTS = (DINProCond, DINProCondMedium, DINProCondBold)
 CHAMPIONS_FONTS = (ChampionsBold, ChampionsBold, ChampionsBold)
 
-# value tuple will be in the form (img dir, (font colours tuple), (fonts tuple))
+# value tuple will be in the form (img dir, (font colour top, font colour bottom), fonts tuple)
+# the font colour is a tuple as some cards have different colour backgrounds in their top and
+# bottom half e.g. Europa League MOTM so require different font colours for the text in each half
 cardcode_to_resources = {
     'COMMON_BRONZE': ('assets/19/cards/common_bronze.png', (COMMON_BRONZE, COMMON_BRONZE), DINPRO_FONTS),
     'COMMON_SILVER': ('assets/19/cards/common_silver.png', (COMMON_SILVER, COMMON_SILVER), DINPRO_FONTS),
@@ -37,12 +39,12 @@ cardcode_to_resources = {
     'EL_MOTM': ('assets/19/cards/europa_league_motm.png', (WHITE_SMOKE, BLACK), DINPRO_FONTS),
     'EL_LIVE': ('assets/19/cards/europa_league_live.png', (TANGERINE, TANGERINE), DINPRO_FONTS),
     'EL_SBC': ('assets/19/cards/europa_league_sbc.png', (BLACK, BLACK), DINPRO_FONTS),
-    'EL_TOTT': ('assets/19/cards/europa_league_tott.png', (WHITE_SMOKE, WHITE_SMOKE), DINPRO_FONTS)
+    'EL_TOTT': ('assets/19/cards/europa_league_tott.png', (WHITE_SMOKE, WHITE_SMOKE), DINPRO_FONTS),
 
-    # 'COMMON_UCL': ('assets/19/cards/ucl_nonrare.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
-    # 'RARE_UCL': ('assets/19/cards/ucl_rare.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
-    # 'UCL_MOTM': ('assets/19/cards/ucl_motm.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
-    # 'UCL_SPECIAL1': ('assets/19/cards/ucl_special_1.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
-    # 'UCL_SPECIAL2': ('assets/19/cards/ucl_special_2.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
-    # 'UCL_SPECIAL3': ('assets/19/cards/ucl_special_3.png', (WHISPER, WHISPER), CHAMPIONS_FONTS)
+    'COMMON_UCL': ('assets/19/cards/ucl_nonrare.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
+    'RARE_UCL': ('assets/19/cards/ucl_rare.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
+    'UCL_MOTM': ('assets/19/cards/ucl_motm.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
+    'UCL_LIVE': ('assets/19/cards/ucl_live.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
+    'UCL_SBC': ('assets/19/cards/ucl_sbc.png', (WHISPER, WHISPER), CHAMPIONS_FONTS),
+    'UCL_TOTT': ('assets/19/cards/ucl_tott.png', (WHISPER, WHISPER), CHAMPIONS_FONTS)
 }
