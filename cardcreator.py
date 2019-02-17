@@ -4,33 +4,32 @@ from io import BytesIO
 import requests
 from PIL import Image, ImageDraw
 
-from resources.exceptions import *
 from resources.cardcode_to_resources import cardcode_to_resources
 from resources.dimensions import *
-from resources.fonts import *
+from resources.exceptions import *
 from resources.languages_dictionary import languages_dict
 
 
 def render_card(player, card_code, player_image_url, status_id):
-    card_background_font_colour_fonts_tuple = cardcode_to_resources.get(card_code.upper())
+    card_background_font_colours_fonts_tuple = cardcode_to_resources.get(card_code.upper())
 
-    if card_background_font_colour_fonts_tuple is None:
+    if card_background_font_colours_fonts_tuple is None:
         raise InvalidCardCodeError(f'Card code ({card_code}) is invalid.')
 
-    card_background = card_background_font_colour_fonts_tuple[0]
-    font_colour_top = card_background_font_colour_fonts_tuple[1][0]
-    font_colour_bottom = card_background_font_colour_fonts_tuple[1][1]
-    fonts_tuple = card_background_font_colour_fonts_tuple[2]
+    card_background = card_background_font_colours_fonts_tuple[0]
+    font_colour_top = card_background_font_colours_fonts_tuple[1][0]
+    font_colour_bottom = card_background_font_colours_fonts_tuple[1][1]
+    fonts_tuple = card_background_font_colours_fonts_tuple[2]
 
     card_bg_img = Image.open(card_background).convert('RGBA')
     draw = ImageDraw.Draw(card_bg_img)
 
     # prepare fonts ready for use
-    position_font = ImageFont.truetype(fonts_tuple[0], 50)
-    attribute_label_font = ImageFont.truetype(fonts_tuple[0], 50)
-    overall_font = ImageFont.truetype(fonts_tuple[1], 120)
-    attribute_value_font = ImageFont.truetype(fonts_tuple[2], 55)
-    name_font = ImageFont.truetype(fonts_tuple[2], 70)
+    overall_font = fonts_tuple[0]
+    position_font = fonts_tuple[1]
+    name_font = fonts_tuple[2]
+    attribute_value_font = fonts_tuple[3]
+    attribute_label_font = fonts_tuple[4]
 
     w, h = draw.textsize(player.name, name_font)
     w2, h2 = draw.textsize(player.position.name, position_font)
@@ -156,7 +155,7 @@ def add_player_name_overall_and_position(draw, font_colour_top, font_colour_bott
     # add player name
     draw.text((player_name_left_margin, top_margin_name), player.name.upper(), fill=font_colour_bottom, font=namefont)
     # add player overall rating
-    draw.text((left_margin, 80), str(player.overall), fill=font_colour_top, font=overallfont)
+    draw.text((left_margin, top_margin_player_overall), str(player.overall), fill=font_colour_top, font=overallfont)
     # add player position
     draw.text((player_position_left_margin, top_margin_position), player.position.name, fill=font_colour_top, font=positionfont)
 

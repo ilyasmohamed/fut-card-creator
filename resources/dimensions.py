@@ -5,6 +5,8 @@ top_margin_position = 195
 
 top_margin_name = 440
 
+top_margin_player_overall = 80
+
 '''
 Line separator dimensions
 '''
