@@ -209,17 +209,13 @@ Below are the image resources (cards, club badges and country flags) which can c
 <details><summary>Collapsible Section</summary>
 <p>
 
+| Colour | Common | Rare | In-Form |
+| :---------: | :-----------: | :--: | :--: |
+| Bronze | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/common_bronze.png" width="20%"> | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_bronze.png" width="20%"> | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_bronze.png" width="20%"> |
+| Code | COMMON_BRONZE | RARE_BRONZE | IF_BRONZE |
+
 | Card Name | Card Code | Card |
 | :---------: | :-----------: | :--: |
-| Common Bronze | COMMON_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/common_bronze.png" width="20%"> |
-| Common Silver | COMMON_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/common_silver.png" width="20%"> |
-| Common Gold | COMMON_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/common_gold.png" width="20%"> |
-| Rare Bronze | RARE_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_bronze.png" width="20%"> |
-| Rare Silver | RARE_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_silver.png" width="20%"> |
-| Rare Gold | RARE_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_gold.png" width="20%"> |
-| IF Bronze | IF_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_bronze.png" width="20%"> |
-| IF Silver | IF_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_silver.png" width="20%"> |
-| IF Gold | IF_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_gold.png" width="20%"> |
 | Legend | LEGEND | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/legend.png" width="20%"> |
 | MOTM | MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/motm.png" width="20%"> |
 | Futties | FUTTIES | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/futties.png" width="20%"> |
