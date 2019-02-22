@@ -24,6 +24,6 @@ dinpro_fonts = (ImageFont.truetype(DINProCondMedium, 120),
 
 champions_fonts = (ImageFont.truetype(ChampionsRegular, 115),
                    ImageFont.truetype(ChampionsRegular, 50),
-                   ImageFont.truetype(ChampionsRegular, 70),
-                   ImageFont.truetype(ChampionsBold, 50),
+                   ImageFont.truetype(ChampionsRegular, 68),
+                   ImageFont.truetype(ChampionsRegular, 55),
                    ImageFont.truetype(ChampionsRegular, 50))
