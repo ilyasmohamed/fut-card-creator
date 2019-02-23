@@ -2,7 +2,7 @@ import os
 from io import BytesIO
 
 import requests
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 from resources.cardcode_to_card import cardcode_to_card
 from resources.exceptions import *
@@ -24,11 +24,11 @@ def render_card(player, card_code, player_image_url, status_id):
     draw = ImageDraw.Draw(card_bg_img)
 
     # prepare fonts ready for use
-    overall_font = fonts_tuple[0]
-    position_font = fonts_tuple[1]
-    name_font = fonts_tuple[2]
-    attribute_value_font = fonts_tuple[3]
-    attribute_label_font = fonts_tuple[4]
+    overall_font = ImageFont.truetype(fonts_tuple[0][0], fonts_tuple[0][1])
+    position_font = ImageFont.truetype(fonts_tuple[1][0], fonts_tuple[1][1])
+    name_font = ImageFont.truetype(fonts_tuple[2][0], fonts_tuple[2][1])
+    attribute_value_font = ImageFont.truetype(fonts_tuple[3][0], fonts_tuple[3][1])
+    attribute_label_font = ImageFont.truetype(fonts_tuple[4][0], fonts_tuple[4][1])
 
     w, h = draw.textsize(player.name, name_font)
     w2, h2 = draw.textsize(player.position.name, position_font)
