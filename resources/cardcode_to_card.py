@@ -38,7 +38,7 @@ cardcode_to_card = {
     'EL_SBC': Card.factory('FIFA19_STD', 'assets/19/cards/europa_league_sbc.png', (BLACK, BLACK), dinpro_fonts),
     'EL_TOTT': Card.factory('FIFA19_STD', 'assets/19/cards/europa_league_tott.png', (WHITE_SMOKE, WHITE_SMOKE), dinpro_fonts),
 
-    'COMMON_UCL': Card.factory('FIFA19_UCL', 'assets/19/cards/ucl_nonrare.png', (WHISPER, WHISPER), champions_fonts),
+    'COMMON_UCL': Card.factory('FIFA19_UCL', 'assets/19/cards/ucl_common.png', (WHISPER, WHISPER), champions_fonts),
     'RARE_UCL': Card.factory('FIFA19_UCL', 'assets/19/cards/ucl_rare.png', (WHISPER, WHISPER), champions_fonts),
     'UCL_MOTM': Card.factory('FIFA19_UCL', 'assets/19/cards/ucl_motm.png', (WHISPER, WHISPER), champions_fonts),
     'UCL_LIVE': Card.factory('FIFA19_UCL', 'assets/19/cards/ucl_live.png', (WHISPER, WHISPER), champions_fonts),
