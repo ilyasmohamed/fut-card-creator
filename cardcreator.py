@@ -9,7 +9,7 @@ from resources.exceptions import *
 from resources.languages_dictionary import languages_dict
 
 
-def render_card(player, card_code, player_image_url, status_id):
+def render_card(player, card_code, player_image_url, dynamic_img_fl, status_id):
     card_obj = cardcode_to_card.get(card_code.upper())
 
     if card_obj is None:
@@ -36,9 +36,6 @@ def render_card(player, card_code, player_image_url, status_id):
     player_name_left_margin = (card_bg_img.width - w) / 2
     player_position_left_margin = card_obj.dimensions.left_margin + 50 - (w2 / 2)
 
-    add_player_name_overall_and_position(draw, card_obj, font_colour_top, font_colour_bottom, player_name_left_margin,
-                                         player_position_left_margin, player, name_font, overall_font, position_font)
-
     add_player_attributes_section(draw, card_obj, font_colour_bottom, player, attribute_value_font, attribute_label_font)
 
     add_separator_lines(draw, card_obj, font_colour_top, font_colour_bottom)
@@ -58,7 +55,14 @@ def render_card(player, card_code, player_image_url, status_id):
             # Saves the image under the given filename
             i.save(temp_file_path)
 
-        stamp_player_image(card_bg_img, card_obj, temp_file_path)
+            if dynamic_img_fl:
+                card_bg_img = stamp_dynamic_player_image(card_bg_img, card_obj, temp_file_path, status_id)
+                draw = ImageDraw.Draw(card_bg_img)
+            else:
+                stamp_player_image(card_bg_img, card_obj, temp_file_path)
+
+    add_player_name_overall_and_position(draw, card_obj, font_colour_top, font_colour_bottom, player_name_left_margin,
+                                         player_position_left_margin, player, name_font, overall_font, position_font)
 
     stamp_country_flag_and_club_badge(card_obj, card_bg_img, player)
 
@@ -77,6 +81,35 @@ def stamp_player_image(card_bg_img, card_obj, player_image_filename):
     player_img = player_img.resize((320, 320))
 
     card_bg_img.paste(player_img, (card_obj.dimensions.left_margin_player_image, card_bg_img.height - player_img.height - 383), player_img)
+
+
+def stamp_dynamic_player_image(card_bg_img, card_obj, player_image_filename, status_id):
+    player_img = Image.open(player_image_filename).convert('RGBA')
+
+    dynamic_img_path = paste_dynamic_player_image_on_blank_canvas(card_bg_img, card_obj, player_img, status_id)
+    dynamic_player_img = Image.open(dynamic_img_path)
+
+    final = Image.new("RGBA", card_bg_img.size)
+    final = Image.alpha_composite(final, card_bg_img)
+    final = Image.alpha_composite(final, dynamic_player_img)
+
+    return final
+
+
+def paste_dynamic_player_image_on_blank_canvas(card_bg_img, card_obj, player_img, status_id):
+    canvas = Image.new("RGBA", card_bg_img.size)
+    canvas.paste(player_img, (card_obj.dimensions.left_margin_dynamic_player_image,
+                              card_bg_img.height - player_img.height - card_obj.dimensions.bottom_margin_dynamic_player_image),
+                 player_img)
+    canvas.save('canvas.png')
+    tmp_save_path = 'temp'
+    if not os.path.exists(tmp_save_path):
+        os.makedirs(tmp_save_path)
+    save_filename = f'dynamic-img-{status_id}.png'
+    tmp_file_path = os.path.join(tmp_save_path, save_filename)
+    canvas.save(tmp_file_path)
+
+    return tmp_file_path
 
 
 def stamp_country_flag_and_club_badge(card_obj, card_bg_img, player):
