@@ -9,6 +9,7 @@ A Twitter bot written in Python which creates Fifa Ultimate Team cards when Twit
 - [Example usages](#example-usages)
   - [Examples with other languages](#examples-with-other-languages)
 - [Language Support](#language-support)
+  - [Position conversion](#position-conversion)
 - [Resources](#resources)
   - [FUT Cards](#fut-cards)
   - [Country Flags](#country-flags)
@@ -68,6 +69,19 @@ The following languages are currently supported:
 | Italian | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/nations/png100px/it.png" height="10px"> | IT |
 
 \* The language code for English is EN however no language code is actually required in the tweet if you require the output image to have English text
+
+#### Position Conversion
+
+The bot is able to convert an English position to any of the other supported languages.
+
+E.g. If you request a card with the position set to `RW` and the language set to `ES` like below
+```
+@futcardcreator [Messi, RW, 241, AR, 99, 99, 99, 99, 99, 99, 99, UCL_MOTM, ES]
+```
+then the bot will convert the position to its equivalent in the chosen language and will also use the attribute labels from the chosen language in the final output image:
+
+<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es_v2.png" width="20%">
+
 
 #### Positions for each language
 
