@@ -1,14 +1,14 @@
-from resources.cardcode_to_resources import cardcode_to_resources
+from resources.cardcode_to_card import cardcode_to_card
 
 
 with open('output/card_backgrounds_table.txt', 'w') as writer:
     writer.write('| Card Name | Card Code | Card |\n')
     writer.write('| :---------: | :-----------: | :--: |\n')
 
-    for card_code in cardcode_to_resources:
-        card_background_font_colour_tuple = cardcode_to_resources.get(card_code)
+    for card_code in cardcode_to_card:
+        card = cardcode_to_card.get(card_code)
 
-        card_background_dir = card_background_font_colour_tuple[0]
+        card_background_dir = card.background_image_dir
         card_background_link = f'![{card_code}]({card_background_dir})'
         card_background_link = f'<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/{card_background_dir}" width="20%">'
 
