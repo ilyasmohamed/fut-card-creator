@@ -3,6 +3,7 @@ class Dimensions:
 
         self.left_margin = 85
         self.left_margin_club_badge = self.left_margin + 10
+        self.left_margin_overall = self.left_margin - 13
 
         self.top_margin_position = 195
 

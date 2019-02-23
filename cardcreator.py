@@ -154,7 +154,7 @@ def add_player_name_overall_and_position(draw, card_obj, font_colour_top, font_c
     # add player name
     draw.text((player_name_left_margin, card_obj.dimensions.top_margin_name), player.name.upper(), fill=font_colour_bottom, font=namefont)
     # add player overall rating
-    draw.text((card_obj.dimensions.left_margin, card_obj.dimensions.top_margin_player_overall), str(player.overall), fill=font_colour_top, font=overallfont)
+    draw.text((card_obj.dimensions.left_margin_overall, card_obj.dimensions.top_margin_player_overall), str(player.overall), fill=font_colour_top, font=overallfont)
     # add player position
     draw.text((player_position_left_margin, card_obj.dimensions.top_margin_position), player.position.name, fill=font_colour_top, font=positionfont)
 
