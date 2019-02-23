@@ -217,23 +217,29 @@ Below are the image resources (cards, club badges and country flags) which can c
 | Rare Bronze | RARE_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_bronze.png" width="20%"> |
 | Rare Silver | RARE_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_silver.png" width="20%"> |
 | Rare Gold | RARE_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/rare_gold.png" width="20%"> |
-| IF Bronze | IF_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_bronze.png" width="20%"> |
-| IF Silver | IF_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_silver.png" width="20%"> |
-| IF Gold | IF_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_gold.png" width="20%"> |
+| If Bronze | IF_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_bronze.png" width="20%"> |
+| If Silver | IF_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_silver.png" width="20%"> |
+| If Gold | IF_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_gold.png" width="20%"> |
 | Legend | LEGEND | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/legend.png" width="20%"> |
-| MOTM | MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/motm.png" width="20%"> |
+| Motm | MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/motm.png" width="20%"> |
 | Futties | FUTTIES | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/futties.png" width="20%"> |
 | Pro Player | PP | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/pro_player.png" width="20%"> |
 | Record Breaker | RB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/record_breaker.png" width="20%"> |
 | Hero | HERO | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/hero.png" width="20%"> |
 | Headliners | HEADLINERS | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/headliners.png" width="20%"> |
-| TOTY | TOTY | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty.png" width="20%"> |
-| TOTY Nominees | TOTY_N | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty_nominees.png" width="20%"> |
+| Toty | TOTY | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty.png" width="20%"> |
+| Toty Nominees | TOTY_N | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty_nominees.png" width="20%"> |
 | Europa League | EL | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league.png" width="20%"> |
-| Europa League MOTM | EL_MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_motm.png" width="20%"> |
+| Europa League Motm | EL_MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_motm.png" width="20%"> |
 | Europa League Live | EL_LIVE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_live.png" width="20%"> |
-| Europa League SBC | EL_SBC | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_sbc.png" width="20%"> |
-| Europa League TOTT | EL_TOTT | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_tott.png" width="20%"> |
+| Europa League Sbc | EL_SBC | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_sbc.png" width="20%"> |
+| Europa League Tott | EL_TOTT | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league_tott.png" width="20%"> |
+| Ucl Common | COMMON_UCL | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_common.png" width="20%"> |
+| Ucl Rare | RARE_UCL | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_rare.png" width="20%"> |
+| Ucl Motm | UCL_MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_motm.png" width="20%"> |
+| Ucl Live | UCL_LIVE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_live.png" width="20%"> |
+| Ucl Sbc | UCL_SBC | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_sbc.png" width="20%"> |
+| Ucl Tott | UCL_TOTT | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_tott.png" width="20%"> |
 
 </p>
 </details>
