@@ -60,7 +60,7 @@ def render_card(player, card_code, player_image_url, status_id):
 
         stamp_player_image(card_bg_img, card_obj, temp_file_path)
 
-    stamp_country_flag_and_club_badge(card_bg_img, player)
+    stamp_country_flag_and_club_badge(card_obj, card_bg_img, player)
 
     save_path = 'finished-fut-cards'
     if not os.path.exists(save_path):
