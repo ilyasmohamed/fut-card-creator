@@ -3,6 +3,7 @@ from enum import Enum
 from resources.languages_dictionary import languages_dict
 from resources.language import Language
 from resources.exceptions import InvalidPositionError, InvalidLanguageError
+from resources.en_position import EnPosition
 
 
 class Player:
@@ -18,7 +19,14 @@ class Player:
             position = Enum('Position', languages_dict.get(language).get('positions'))
             self.position = position[pos.upper()]
         except KeyError:
-            raise InvalidPositionError(f'Position ({pos}) is not available in language {language}.')
+            try:
+                en_position = EnPosition[pos.upper()]
+                position = Enum('Position', languages_dict.get(language).get('positions'))
+                index = en_position.value - 1
+                self.position = position[languages_dict.get(language).get('positions')[index]]
+            except (KeyError, IndexError):
+                raise InvalidPositionError(f'Position ({pos}) is not available in language {language}.'
+                                           f'Conversion of {pos} from English position to {language} unsuccessful.')
 
         self.club = club
         self.country = country.lower()
