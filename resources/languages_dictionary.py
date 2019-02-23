@@ -15,7 +15,7 @@ languages_dict = {
 
     'FR': {
         'positions': ('G',
-                      'DG', 'DC', 'DD',
+                      'DG', 'DG', 'DC', 'DD', 'DD',
                       'MG', 'MDC', 'MC', 'MOC', 'MD',
                       'AG', 'AD',
                       'AVG', 'AT', 'AVD',
