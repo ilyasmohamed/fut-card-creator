@@ -39,6 +39,8 @@ p = re.compile(
     r'(,[ ]?[a-zA-Z]{2})?\]',
     re.IGNORECASE | re.VERBOSE)
 
+args_p = re.compile(r'([-]{2}[A-Za-z]+)+')
+
 
 # create a class inheriting from the tweepy  StreamListener
 class BotStreamer(tweepy.StreamListener):
@@ -76,6 +78,10 @@ class BotStreamer(tweepy.StreamListener):
         except IndexError:
             lang_code = 'EN'
 
+        args = args_p.findall(tweet_text)
+
+        dynamic_fl = True if '--dynamic' in args else False
+
         if 'media' in status.entities and status.entities['media'][0]['type'] == 'photo':
             image_url = status.entities['media'][0]['media_url']
         else:
@@ -83,7 +89,7 @@ class BotStreamer(tweepy.StreamListener):
 
         try:
             player = Player(name, position, club, country, overall, pac, dri, sho, deff, pas, phy, lang_code)
-            path_to_card_img = render_card(player, card_code, image_url, status.id)
+            path_to_card_img = render_card(player, card_code, image_url, dynamic_fl, status.id)
         except FileNotFoundError as err:
             return
         except InvalidCardCodeError:
