@@ -234,13 +234,14 @@ Below are the image resources (cards, club badges and country flags) which can c
 | If Bronze | IF_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_bronze.png" width="20%"> |
 | If Silver | IF_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_silver.png" width="20%"> |
 | If Gold | IF_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/if_gold.png" width="20%"> |
-| Legend | LEGEND | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/legend.png" width="20%"> |
+| Champion Bronze | FC_BRONZE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/champion_bronze.png" width="20%"> |
+| Champion Silver | FC_SILVER | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/champion_silver.png" width="20%"> |
+| Champion Gold | FC_GOLD | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/champion_gold.png" width="20%"> |
 | Motm | MOTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/motm.png" width="20%"> |
+| Potm Premier League | PL_POTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/potm_pl.png" width="20%"> |
+| Potm Bundesliga | BL_POTM | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/potm_bundesliga.png" width="20%"> |
 | Futties | FUTTIES | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/futties.png" width="20%"> |
-| Pro Player | PP | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/pro_player.png" width="20%"> |
-| Record Breaker | RB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/record_breaker.png" width="20%"> |
-| Hero | HERO | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/hero.png" width="20%"> |
-| Headliners | HEADLINERS | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/headliners.png" width="20%"> |
+| Futties Winner | FUTTIESW | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/futties_winner.png" width="20%"> |
 | Toty | TOTY | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty.png" width="20%"> |
 | Toty Nominees | TOTY_N | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/toty_nominees.png" width="20%"> |
 | Europa League | EL | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/europa_league.png" width="20%"> |
@@ -254,6 +255,18 @@ Below are the image resources (cards, club badges and country flags) which can c
 | Ucl Live | UCL_LIVE | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_live.png" width="20%"> |
 | Ucl Sbc | UCL_SBC | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_sbc.png" width="20%"> |
 | Ucl Tott | UCL_TOTT | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/ucl_tott.png" width="20%"> |
+| Fut Swap Rewards | FSR | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/fut_swap_rewards.png" width="20%"> |
+| Future Stars | FS | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/future_stars.png" width="20%"> |
+| Future Stars Nominees | FSN | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/future_stars_nominees.png" width="20%"> |
+| Pro Player | PP | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/pro_player.png" width="20%"> |
+| Record Breaker | RB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/record_breaker.png" width="20%"> |
+| Hero | HERO | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/hero.png" width="20%"> |
+| Award Winner | AW | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/award_winner.png" width="20%"> |
+| Flashback | FB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/flashback.png" width="20%"> |
+| Headliners | HEADLINERS | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/headliners.png" width="20%"> |
+| Sbc | SBC | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/sbc.png" width="20%"> |
+| Sbc Premium | SBCP | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/sbc_premium.png" width="20%"> |
+| Legend | LEGEND | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/legend.png" width="20%"> |
 
 </p>
 </details>
