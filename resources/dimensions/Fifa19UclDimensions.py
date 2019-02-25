@@ -51,5 +51,5 @@ class Dimensions:
         self.top_margin_stats_row_3_labels = self.top_margin_stats_row_3_values + self.top_margin_label_offset
 
         self.left_margin_player_image = 165
-        self.left_margin_dynamic_player_image = 35
-        self.bottom_margin_dynamic_player_image = 160
+        self.left_margin_dynamic_player_image = 30
+        self.bottom_margin_dynamic_player_image = 170
