@@ -3,7 +3,7 @@
 </p>
 
 # Fifa Ultimate Team Card Creator Twitter bot
-<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/fut-card-creator-cards.gif" />
+<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-assets/gifs/fut-card-creator-cards.gif" />
 
 [![Twitter URL](https://img.shields.io/twitter/follow/futcardcreator.svg?style=social)](https://twitter.com/futcardcreator)
 
@@ -44,7 +44,7 @@ In order to get the bot to generate a FUT card you must 'mention' the bot in a t
 ## Usage
 
 <p align="center">
-<img align="center" width="100%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/usage-messi_rare_gold.gif" />
+<img align="center" width="100%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-assets/gifs/usage-messi_rare_gold.gif" />
 </p>
 
 The following tweet
