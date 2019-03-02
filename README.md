@@ -1,12 +1,24 @@
+<p align="center">
+<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/ozil_de.png" width="18%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/neymar_pt.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es.png" width="24%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/mbappe_fr.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/dybala_it.png" width="18%">
+</p>
+
 # Fifa Ultimate Team Card Creator Twitter bot
-A Twitter bot written in Python which creates Fifa Ultimate Team cards when Twitter users mention it with parameters supplied in the correct format.
+<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/fut-card-creator-cards.gif" />
 
 [![Twitter URL](https://img.shields.io/twitter/follow/futcardcreator.svg?style=social)](https://twitter.com/futcardcreator)
+
+A Twitter bot written in Python which uses the Tweepy library
+
+The bot creates a Fifa Ultimate Team card when Twitter users make a request
+
+Request Tweets must be in a [specific format](#how-to-tweet-at-the-bot)
+
+Users can chose from a selection of cards, country flags and club badges which are listed in the [resources](#resources) section
 
 ## Contents
 
 - [How to tweet at the bot](#how-to-tweet-at-the-bot)
-- [Example usages](#example-usages)
+- [Usage](#usage)
   - [Examples with other languages](#examples-with-other-languages)
 - [Language Support](#language-support)
   - [Position conversion](#position-conversion)
@@ -17,32 +29,35 @@ A Twitter bot written in Python which creates Fifa Ultimate Team cards when Twit
   
   
 ## How to tweet at the bot
-In order to get the bot to generate a FUT card you must @ the bot; `@futcardcreator`
-
-The parameters must be in a specific format:
+In order to get the bot to generate a FUT card you must 'mention' the bot in a tweet e.g. `@futcardcreator` and the parameters must be in a specific format:
 ```
 [Name, Position, Club Number, Country Code, Overall, PAC, DRI, SHO, DEF, PAS, PHY, Card Code, Language Code]
 ```
 
 - The values for PAC, DRI, SHO, DEF, PAS and PHY must be between 0 and 99 (inclusive)
-- Club number, country code and card code must be among the resources supported ([see below](#resources))
+- Club number, country code and card code must be among the resources supported ([resources section](#resources))
 - Language code is optional and must be one of the languages supported ([supported languages](#language-support))
   - If no language code is specified then English is used as the default
-  - The position must be among the valid positions within the language code
+- The position must be among the valid positions within the language code ([valid positions for each language](#positions-for-each-language))
 
 
-## Example Usages
+## Usage
+
+<p align="center">
+<img align="center" width="100%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/usage-messi_rare_gold.gif" />
+</p>
 
 The following tweet
-
+<img align="right" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/Messi%20Rare_Gold.png" width="20%" title="Messi Rare Gold">
 ```
 @futcardcreator [Messi,RW,241,AR,94,88,96,91,32,88,61,RARE_GOLD]
 ```
-(along with an image of Messi attached to the tweet) will generate:
+(along with an image of Messi attached to the tweet) will generate the card shown on the right
 
-<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/Messi%20Rare_Gold.png" width="20%">
-
-Have a go: [![Twitter URL](https://img.shields.io/twitter/url/https/futcardcreator.svg?style=social)](https://twitter.com/intent/tweet?screen_name=futcardcreator&ref_src=twsrc%5Etfw)
+It is valid to add (or omit) a space after each comma between the square brackets in the request tweet e.g:
+```
+@futcardcreator [Messi, RW, 241, AR, 94, 88, 96, 91, 32, 88, 61, RARE_GOLD]
+```
 
 ### Examples with other languages
 
@@ -55,6 +70,11 @@ All below examples assume an image has been attached to the request tweet.
 | @futcardcreator [Ozil, ZOM, 1, DE, 99, 99, 99, 99, 99, 99, 99, EL_MOTM, DE] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/ozil_de.png" width="30%"> |
 | @futcardcreator [Dybala, COC, 45, AR, 99, 99, 99, 99, 99, 99, 99, MOTM, IT] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/dybala_it.png" width="30%"> |
 | @futcardcreator [Mbappe, BU, 73, FR, 99, 99, 99, 99, 99, 99, 99, IF_GOLD, FR] | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/mbappe_fr.png" width="30%"> |
+
+<p align="center">⬇️ Have a go ⬇️</p>
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?screen_name=futcardcreator&ref_src=twsrc%5Etfw"><img align="center" src="https://img.shields.io/twitter/url/https/futcardcreator.svg?label=Tweet%20the%20bot&style=social"/></a>
+</p>
 
 ## Language Support
 
@@ -70,18 +90,16 @@ The following languages are currently supported:
 
 \* The language code for English is EN however no language code is actually required in the tweet if you require the output image to have English text
 
+
 #### Position Conversion
 
 The bot is able to convert an English position to any of the other supported languages.
-
+<img align="right" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es_v2.png" width="20%">
 E.g. If you request a card with the position set to `RW` and the language set to `ES` like below
 ```
 @futcardcreator [Messi, RW, 241, AR, 99, 99, 99, 99, 99, 99, 99, UCL_MOTM, ES]
 ```
 then the bot will convert the position to its equivalent in the chosen language and will also use the attribute labels from the chosen language in the final output image:
-
-<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es_v2.png" width="20%">
-
 
 #### Positions for each language
 
