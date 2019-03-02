@@ -19,7 +19,6 @@ Users can chose from a selection of cards, country flags and club badges which a
 
 - [How to tweet at the bot](#how-to-tweet-at-the-bot)
 - [Usage](#usage)
-  - [Examples usages](#example-usages)
   - [Examples with other languages](#examples-with-other-languages)
 - [Language Support](#language-support)
   - [Position conversion](#position-conversion)
@@ -48,7 +47,6 @@ In order to get the bot to generate a FUT card you must 'mention' the bot in a t
 <img align="center" width="100%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/usage-messi_rare_gold.gif" />
 </p>
 
-### Example Usages
 The following tweet
 <img align="right" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/Messi%20Rare_Gold.png" width="20%" title="Messi Rare Gold">
 ```
