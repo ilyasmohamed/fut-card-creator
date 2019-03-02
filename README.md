@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/ozil_de.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/neymar_pt.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/mbappe_fr.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/dybala_it.png" width="20%">
+<img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/ozil_de.png" width="18%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/neymar_pt.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/messi_es.png" width="24%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/mbappe_fr.png" width="20%"><img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-images/dybala_it.png" width="18%">
 </p>
 
 # Fifa Ultimate Team Card Creator Twitter bot
