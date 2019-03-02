@@ -3,7 +3,7 @@
 </p>
 
 # Fifa Ultimate Team Card Creator Twitter bot
-<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/cards.gif" />
+<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/update-readme/readme-assets/gifs/fut-card-creator-cards.gif" />
 
 [![Twitter URL](https://img.shields.io/twitter/follow/futcardcreator.svg?style=social)](https://twitter.com/futcardcreator)
 
