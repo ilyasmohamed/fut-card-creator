@@ -22,6 +22,8 @@ Users can chose from a selection of cards, country flags and club badges which a
   - [Examples with other languages](#examples-with-other-languages)
 - [Language Support](#language-support)
   - [Position conversion](#position-conversion)
+- [Image guidelines](#image-guidelines)
+  - [Dynamic Images](#dynamic-images)
 - [Resources](#resources)
   - [FUT Cards](#fut-cards)
   - [Country Flags](#country-flags)
@@ -233,6 +235,32 @@ then the bot will convert the position to its equivalent in the chosen language 
 </p> 
 </details>
 
+
+## Image Guidelines
+<img align="right" width="10%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-assets/images/messi_headshot.png" />
+
+When making a request to the bot to generate a FUT card, you can attach an image in the request tweet which will prompt the bot to use the image in the generated FUT card.
+
+For best results use an image with a transparent background a 1:1 aspect ratio (square format) like the example shown on the right
+
+If you wish to use dynamic images then see ([the section below](#dynamic-images))
+
+### Dynamic Images
+<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-assets/images/messi_dynamic.png" />
+
+Dynamic images are special images used on FUT cards
+
+These cards are not the usual headshot style images used on normal FUT cards
+
+Dynamic images can be found via a quick google search for `<player name> fut png` and they will usually be `485 × 567` in size
+
+A dynamic image can be identified by the soft gradient towards the bottom of the image
+<img align="right" width="20%" src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/readme-assets/images/messi_toty_dynamic.png" />
+
+In order to use a dynamic image for the creation of a FUT card make sure to use the `--dynamic` flag in the request tweet e.g.
+```
+@futcardcreator [Messi, RW, 241, AR, 99, 97, 99, 99, 45, 98, 85, TOTY] --dynamic
+```
 
 ## Resources
 Below are the image resources (cards, club badges and country flags) which can currently be rendered.
