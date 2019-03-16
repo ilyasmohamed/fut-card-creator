@@ -62,6 +62,7 @@ cardcode_to_card = {
 
     # MISC
     'PP': Card.factory('FIFA19_STD', 'assets/19/cards/pro_player.png', (WHISPER, WHISPER), dinpro_fonts),
+    'CB': Card.factory('FIFA19_STD', 'assets/19/cards/carniball.png', (BRAZILIAN_YELLOW, BRAZILIAN_YELLOW), dinpro_fonts),
     'RB': Card.factory('FIFA19_STD', 'assets/19/cards/record_breaker.png', (SPRING_BUD, SPRING_BUD), dinpro_fonts),
     'HERO': Card.factory('FIFA19_STD', 'assets/19/cards/hero.png', (PHOCA, PHOCA), dinpro_fonts),
     'AW': Card.factory('FIFA19_STD', 'assets/19/cards/award_winner.png', (AWARD_WINNER, AWARD_WINNER), dinpro_fonts),
