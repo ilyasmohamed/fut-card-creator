@@ -305,6 +305,7 @@ Below are the image resources (cards, club badges and country flags) which can c
 | Future Stars | FS | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/future_stars.png" width="20%"> |
 | Future Stars Nominees | FSN | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/future_stars_nominees.png" width="20%"> |
 | Pro Player | PP | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/pro_player.png" width="20%"> |
+| Carniball | CB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/carniball.png" width="20%"> |
 | Record Breaker | RB | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/record_breaker.png" width="20%"> |
 | Hero | HERO | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/hero.png" width="20%"> |
 | Award Winner | AW | <img src="https://github.com/ilyasmohamed/fut-card-creator/blob/master/assets/19/cards/award_winner.png" width="20%"> |
