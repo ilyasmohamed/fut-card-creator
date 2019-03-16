@@ -10,11 +10,10 @@ class Card:
         self.dimensions = dimensions
 
     def factory(card_type, background_image_dir, font_colour_tuple, fonts_tuple):
-        if card_type == "FIFA19_STD":
-            return Fifa19StandardCard(background_image_dir, font_colour_tuple, fonts_tuple)
-
         if card_type == "FIFA19_UCL":
             return Fifa19ChampionsLeagueCard(background_image_dir, font_colour_tuple, fonts_tuple)
+        else:
+            return Fifa19StandardCard(background_image_dir, font_colour_tuple, fonts_tuple)
 
     factory = staticmethod(factory)
 
